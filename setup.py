@@ -2,12 +2,12 @@ import setuptools
 
 setuptools.setup(
     name="epic-games-parser-perses",
-    version="0.0.4",
+    version="0.0.5",
     author="Tiago",
     author_email="tiago.ventura12@gmail.com",
     description="A parser to fetch free games from epic games",
     url="https://github.com/tjventura/epic-games-parser",
-    packages=["package"],
+    packages=["epic_games_parser"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
