@@ -19,4 +19,6 @@ setuptools.setup(
 
 ## Help with packages - https://packaging.python.org/tutorials/packaging-projects/
 
-## Project in pipy - pip install -i https://test.pypi.org/simple/ epic-games-parser-tjventura==0.0.1
+## Project in pipy - pip install -i https://test.pypi.org/simple/ epic-games-parser-tjventura==0.0.1 --upgrade
+
+## Project in github pip install git+https://github.com/tjventura/epic-games-parser.git --upgrade
