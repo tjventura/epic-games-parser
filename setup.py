@@ -15,3 +15,8 @@ setuptools.setup(
     ],
     python_requires='>=3.8',
 )
+
+
+## Help with packages - https://packaging.python.org/tutorials/packaging-projects/
+
+## Project in pipy - pip install -i https://test.pypi.org/simple/ epic-games-parser-tjventura==0.0.1
