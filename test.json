@@ -1,0 +1,672 @@
+{
+    "data": {
+        "Catalog": {
+            "searchStore": {
+                "elements": [
+                    {
+                        "title": "Mystery Game",
+                        "id": "b329c389284d47ad8c4630a438f70a09",
+                        "namespace": "d5241c76f178492ea1540fce45616757",
+                        "description": "Mystery Game 02",
+                        "effectiveDate": "2099-01-01T00: 00: 00.000Z",
+                        "keyImages": [
+                            {
+                                "type": "VaultClosed",
+                                "url": "https: //cdn1.epicgames.com/d5241c76f178492ea1540fce45616757/offer/EpicVault_Clean_OPEN_V10_LightsON-1920x1080-75e6d0636a6083944570a1c6f94ead4f.png"
+                            }
+                        ],
+                        "seller": {
+                            "id": "o-ufmrk5furrrxgsp5tdngefzt5rxdcn",
+                            "name": "Epic Dev Test Account"
+                        },
+                        "productSlug": "[]",
+                        "urlSlug": "testflight-01",
+                        "url": None,
+                        "items": [
+                            {
+                                "id": "8341d7c7e4534db7848cc428aa4cbe5a",
+                                "namespace": "d5241c76f178492ea1540fce45616757"
+                            }
+                        ],
+                        "customAttributes": [
+                            {
+                                "key": "com.epicgames.app.freegames.vault.close",
+                                "value": "[]"
+                            },
+                            {
+                                "key": "com.epicgames.app.freegames.vault.slug",
+                                "value": "free-games"
+                            },
+                            {
+                                "key": "com.epicgames.app.blacklist",
+                                "value": "[]"
+                            },
+                            {
+                                "key": "com.epicgames.app.freegames.vault.open",
+                                "value": "[]"
+                            },
+                            {
+                                "key": "com.epicgames.app.productSlug",
+                                "value": "[]"
+                            }
+                        ],
+                        "categories": [
+                            {
+                                "path": "freegames/vaulted"
+                            },
+                            {
+                                "path": "freegames"
+                            },
+                            {
+                                "path": "games"
+                            },
+                            {
+                                "path": "applications"
+                            }
+                        ],
+                        "tags": [
+                            {
+                                "id": "11631"
+                            }
+                        ],
+                        "price": {
+                            "totalPrice": {
+                                "discountPrice": 0,
+                                "originalPrice": 0,
+                                "voucherDiscount": 0,
+                                "discount": 0,
+                                "currencyCode": "USD",
+                                "currencyInfo": {
+                                    "decimals": 2
+                                },
+                                "fmtPrice": {
+                                    "originalPrice": "0",
+                                    "discountPrice": "0",
+                                    "intermediatePrice": "0"
+                                }
+                            },
+                            "lineOffers": [
+                                {
+                                    "appliedRules": []
+                                }
+                            ]
+                        },
+                        "promotions": {
+                            "promotionalOffers": [],
+                            "upcomingPromotionalOffers": [
+                                {
+                                    "promotionalOffers": [
+                                        {
+                                            "startDate": "2020-05-21T15:00:00.000Z",
+                                            "endDate": "2020-05-28T15:00:00.000Z",
+                                            "discountSetting": {
+                                                "discountType": "PERCENTAGE",
+                                                "discountPercentage": 0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "title": "Grand Theft Auto V",
+                        "id": "3e3aedb497074b6e878343bac1011d60",
+                        "namespace": "d5241c76f178492ea1540fce45616757",
+                        "description": "Grand Theft Auto V",
+                        "effectiveDate": "2099-01-01T00: 00: 00.000Z",
+                        "keyImages": [
+                            {
+                                "type": "VaultClosed",
+                                "url": "https: //cdn1.epicgames.com/d5241c76f178492ea1540fce45616757/offer/EpicVault_Clean_OPEN_V10_LightsON-1920x1080-75e6d0636a6083944570a1c6f94ead4f.png"
+                            },
+                            {
+                                "type": "DieselStoreFrontWide",
+                                "url": "https://cdn1.epicgames.com/d5241c76f178492ea1540fce45616757/offer/atmosphere-01-wide-1920x1080-137a8463ce84d3e5f91f5175ac22b961.jpg"
+                            },
+                            {
+                                "type": "DieselStoreFrontTall",
+                                "url": "https://cdn1.epicgames.com/d5241c76f178492ea1540fce45616757/offer/GTAV_EGS_Artwork_1200x1600_Portrait Store Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg"
+                            }
+                        ],
+                        "seller": {
+                            "id": "o-ufmrk5furrrxgsp5tdngefzt5rxdcn",
+                            "name": "Epic Dev Test Account"
+                        },
+                        "productSlug": "grand-theft-auto-v",
+                        "urlSlug": "gtav",
+                        "url": None,
+                        "items": [
+                            {
+                                "id": "8341d7c7e4534db7848cc428aa4cbe5a",
+                                "namespace": "d5241c76f178492ea1540fce45616757"
+                            }
+                        ],
+                        "customAttributes": [
+                            {
+                                "key": "com.epicgames.app.freegames.vault.close",
+                                "value": "[         {             "recipe": "video-hls-noaudio",       "mediaRefId": "8ed90cfb163846779351a56ecf75fb80"
+                            },
+                            {
+                                "recipe": "video-webm-noaudio",
+                                "mediaRefId": "fae30458048a49eda57a026109b70cd2"
+                            },
+                            {
+                                "recipe": "video-fmp4-noaudio",
+                                "mediaRefId": "b0366c8e59a24fda8d965f6b80df780d"
+                            }
+                        ]"
+                    },
+                    {
+                        "key": "com.epicgames.app.freegames.vault.slug",
+                        "value": "free-games"
+                    },
+                    {
+                        "key": "com.epicgames.app.blacklist",
+                        "value": "[]"
+                    },
+                    {
+                        "key": "publisherName",
+                        "value": "Rockstar Games"
+                    },
+                    {
+                        "key": "com.epicgames.app.freegames.vault.open",
+                        "value": "[
+            {
+                            "recipe": "video-hls-noaudio",
+                            "mediaRefId": "8b7fe1efa8054496a8667274a559949b"
+                        },
+                        {
+                            "recipe": "video-fmp4-noaudio",
+                            "mediaRefId": "54666f194eba4a4988c6372abc861eb3"
+                        },
+                        {
+                            "recipe": "video-webm-noaudio",
+                            "mediaRefId": "2ab41630503244f4a3e17963718548c2"
+                        }
+                    ]"
+                },
+                {
+                    "key": "com.epicgames.app.productSlug",
+                    "value": "grand-theft-auto-v"
+                }
+            ],
+            "categories": [
+                {
+                    "path": "freegames"
+                },
+                {
+                    "path": "games"
+                },
+                {
+                    "path": "applications"
+                }
+            ],
+            "tags": [
+                {
+                    "id": "11631"
+                }
+            ],
+            "price": {
+                "totalPrice": {
+                    "discountPrice": 0,
+                    "originalPrice": 0,
+                    "voucherDiscount": 0,
+                    "discount": 0,
+                    "currencyCode": "USD",
+                    "currencyInfo": {
+                        "decimals": 2
+                    },
+                    "fmtPrice": {
+                        "originalPrice": "0",
+                        "discountPrice": "0",
+                        "intermediatePrice": "0"
+                    }
+                },
+                "lineOffers": [
+                    {
+                        "appliedRules": []
+                    }
+                ]
+            },
+            "promotions": {
+                "promotionalOffers": [
+                    {
+                        "promotionalOffers": [
+                            {
+                                "startDate": "2020-05-14T15: 00: 00.000Z",
+                                "endDate": "2020-05-21T15: 00: 00.000Z",
+                                "discountSetting": {
+                                    "discountType": "PERCENTAGE",
+                                    "discountPercentage": 0
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "upcomingPromotionalOffers": []
+            }
+        }
+    ],
+    "paging": {
+        "count": 1000,
+        "total": 2
+    }
+}
+}
+},
+"extensions": {
+"cacheControl": {
+"version": 1,
+"hints": [
+    {
+        "path": [
+            "Catalog"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "keyImages"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "seller"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "items"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "customAttributes"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "categories"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "tags"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "price"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "promotions"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "keyImages"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "seller"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "items"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "customAttributes"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "categories"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "tags"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "price"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "promotions"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "paging"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "promotions",
+            "promotionalOffers"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "promotions",
+            "upcomingPromotionalOffers"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "promotions",
+            "upcomingPromotionalOffers",
+            0,
+            "promotionalOffers"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "promotions",
+            "upcomingPromotionalOffers",
+            0,
+            "promotionalOffers",
+            0,
+            "discountSetting"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "promotions",
+            "promotionalOffers"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "promotions",
+            "promotionalOffers",
+            0,
+            "promotionalOffers"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "promotions",
+            "promotionalOffers",
+            0,
+            "promotionalOffers",
+            0,
+            "discountSetting"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "promotions",
+            "upcomingPromotionalOffers"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "price",
+            "totalPrice"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "price",
+            "totalPrice",
+            "currencyInfo"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "price",
+            "totalPrice",
+            "fmtPrice"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "price",
+            "lineOffers"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            0,
+            "price",
+            "lineOffers",
+            0,
+            "appliedRules"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "price",
+            "totalPrice"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "price",
+            "totalPrice",
+            "currencyInfo"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "price",
+            "totalPrice",
+            "fmtPrice"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "price",
+            "lineOffers"
+        ],
+        "maxAge": 0
+    },
+    {
+        "path": [
+            "Catalog",
+            "searchStore",
+            "elements",
+            1,
+            "price",
+            "lineOffers",
+            0,
+            "appliedRules"
+        ],
+        "maxAge": 0
+    }
+]
+}
+}
+}
