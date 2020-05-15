@@ -3,12 +3,14 @@ import urllib.request, json
 gamesInfo = [{
     'title': 'title',
     'startDate': 'startDate',
-    'endDate': 'endDate'
+    'endDate': 'endDate',
+    'thumbnail': 'thumbnail'
 },
 {
     'title': 'title',
     'startDate': 'startDate',
-    'endDate': 'endDate'
+    'endDate': 'endDate',
+    'thumbnail': 'thumbnail'
 },]
 
 def fetcher():
