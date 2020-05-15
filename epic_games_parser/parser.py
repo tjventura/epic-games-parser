@@ -24,6 +24,6 @@ def fetcher():
                 gamesInfo['startDate'] = AvailableTime['startDate']
                 gamesInfo['endDate'] = AvailableTime['endDate']
 
-            print(json.dumps(gamesInfo))
+        return json.dumps(gamesInfo)
 
 fetcher()
