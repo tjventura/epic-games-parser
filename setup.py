@@ -24,3 +24,5 @@ setuptools.setup(
 ## Project in github - pip install git+https://github.com/tjventura/epic-games-parser.git --upgrade
 
 ## to upgrade the project - python.exe setup.py install
+
+## pyinstaller file.py to convert to exe
