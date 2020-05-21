@@ -11,6 +11,12 @@ gamesInfo = [{
     'startDate': 'startDate',
     'endDate': 'endDate',
     'thumbnail': 'thumbnail'
+},
+{
+    'title': 'title',
+    'startDate': 'startDate',
+    'endDate': 'endDate',
+    'thumbnail': 'thumbnail'
 }]
 
 def fetcher():
