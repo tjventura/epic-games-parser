@@ -64,17 +64,18 @@ def fetcher():
         i = 0
         for freeGameInfo in freeGamesData:
             gamesInfo[i]['title'] = freeGameInfo['title']
-            if freeGameInfo['title'] == 'Mystery Game' or freeGameInfo['promotions']['promotionalOffers'] is None:
-                AvailableTime = freeGameInfo['promotions']['upcomingPromotionalOffers'][0]['promotionalOffers'][0]
-                gamesInfo[i]['startDate'] = AvailableTime['startDate']
-                gamesInfo[i]['endDate'] = AvailableTime['endDate']
-                gamesInfo[i]['thumbnail'] = freeGameInfo['keyImages'][0]['url']
-            else:
-                AvailableTime = freeGameInfo['promotions']['promotionalOffers'][0]['promotionalOffers'][0]
-                gamesInfo[i]['startDate'] = AvailableTime['startDate']
-                gamesInfo[i]['endDate'] = AvailableTime['endDate']
-                gamesInfo[i]['thumbnail'] = freeGameInfo['keyImages'][1]['url']
-            i+=1
+            if freeGameInfo['promotions'] is not None:
+                if freeGameInfo['title'] == 'Mystery Game' or (not freeGameInfo['promotions']['promotionalOffers']):
+                    AvailableTime = freeGameInfo['promotions']['upcomingPromotionalOffers'][0]['promotionalOffers'][0]
+                    gamesInfo[i]['startDate'] = AvailableTime['startDate']
+                    gamesInfo[i]['endDate'] = AvailableTime['endDate']
+                    gamesInfo[i]['thumbnail'] = freeGameInfo['keyImages'][0]['url']
+                elif freeGameInfo['promotions'] == 'null':
+                    AvailableTime = freeGameInfo['promotions']['promotionalOffers'][0]['promotionalOffers'][0]
+                    gamesInfo[i]['startDate'] = AvailableTime['startDate']
+                    gamesInfo[i]['endDate'] = AvailableTime['endDate']
+                    gamesInfo[i]['thumbnail'] = freeGameInfo['keyImages'][1]['url']
+                i+=1
         i = 0            
         return json.dumps(gamesInfo)
 
