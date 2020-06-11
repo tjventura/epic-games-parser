@@ -64,9 +64,8 @@ def fetcher():
         i = 0
         for freeGameInfo in freeGamesData:
             gamesInfo[i]['title'] = freeGameInfo['title']
-            if freeGameInfo['title'] == 'Mystery Game':
+            if freeGameInfo['title'] == 'Mystery Game' or len(freeGameInfo['promotions']['promotionalOffers']) == 0:
                 AvailableTime = freeGameInfo['promotions']['upcomingPromotionalOffers'][0]['promotionalOffers'][0]
-                #gamesInfo[]
                 gamesInfo[i]['startDate'] = AvailableTime['startDate']
                 gamesInfo[i]['endDate'] = AvailableTime['endDate']
                 gamesInfo[i]['thumbnail'] = freeGameInfo['keyImages'][0]['url']
