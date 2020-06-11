@@ -70,7 +70,7 @@ def fetcher():
                     gamesInfo[i]['startDate'] = AvailableTime['startDate']
                     gamesInfo[i]['endDate'] = AvailableTime['endDate']
                     gamesInfo[i]['thumbnail'] = freeGameInfo['keyImages'][0]['url']
-                elif freeGameInfo['promotions'] == 'null':
+                elif freeGameInfo['promotions'] != 'null':
                     AvailableTime = freeGameInfo['promotions']['promotionalOffers'][0]['promotionalOffers'][0]
                     gamesInfo[i]['startDate'] = AvailableTime['startDate']
                     gamesInfo[i]['endDate'] = AvailableTime['endDate']
@@ -79,4 +79,5 @@ def fetcher():
         i = 0            
         return json.dumps(gamesInfo)
 
-fetcher()
+print(fetcher())
+
