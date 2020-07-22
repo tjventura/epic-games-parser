@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="epic-games-parser-perses",
-    version="0.0.21",
+    version="0.0.22",
     author="Tiago",
     author_email="tiago.ventura12@gmail.com",
     description="A parser to fetch free games from epic games",
